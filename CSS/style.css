@@ -1,10 +1,10 @@
-/* /* p,h2{
+ /* p,h2{
     background-color: aqua;
     color: blueviolet;
 }
 #para1{
     font-family: Arial, Helvetica, sans-serif;
-} 
+}  */
 
  div~p{
     background-color: aqua;
@@ -25,8 +25,11 @@
     background-color: greenyellow;
  }
  p:nth-child(2){
-    background-color: blanchedalmond;
+    background-color: rgb(246, 233, 214);
  }
  p:nth-of-type(3){
     background-color: yellow;
- } */
+ }
+ div p:nth-of-type(1){
+   background-color: pink;
+ }
