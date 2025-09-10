@@ -38,26 +38,22 @@ body{
 }
 
 .box1 ,.box2,.box3,.box4{
-  size: 100px;
+  size: 250px;
   background-color: #ffffff;
-  height: 250px;
+  height: 300px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  /* grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2; */
   display: grid;
   gap: 5px;
-  width: 220px;
+  width: 300px;
   padding: 5px;
 }
+
 .box11,.box12,.box13,.box14,.box21,.box22,.box23,.box24,.box31,.box32,.box33,.box34,.box41,.box42,.box43,.box44 {
   border: 1px ;
-  background-color: #f3f368;
   size: 50%;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   /* grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr); */
 
