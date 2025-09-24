@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <head>
+    <style>
+        #adi{
+            border: 5px solid red;
+            height: 300px;
+            width: 3000px;
+            background-color: chocolate;
+        }
+    </style>
 </head>
 <body>
+    <div id="adi">
+        <button onclick="abes()">Click</button>
+        <p id="aaa"></p>
+
+
+    </div>
+
     <script>
+        function abes()
+        {
+            document.getElementById("aaa").innerHTML="<h1> HELLO </h1>"
+        }
+    </script>
+
+
+    <!-- <script>
         function abes()
         {
             document.write("hello abes");
 
         }
         abes();
-    </script>
+    </script> -->
 </body>
 </html>
