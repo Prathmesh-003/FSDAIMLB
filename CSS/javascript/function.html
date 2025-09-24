@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <head>
-    <style>
+    <!-- <style>
         #adi{
             border: 5px solid red;
             height: 300px;
             width: 3000px;
             background-color: chocolate;
         }
-    </style>
+    </style> -->
 </head>
-<body>
-    <div id="adi">
+<body id="adi">
+    <button onclick="red()">Red</button>
+    <button onclick="green()">Green</button>
+    <button onclick="blue()">Blue</button>
+
+    <script>
+        function red()
+        {
+            document.getElementById("adi").style.backgroundColor="red"
+        }
+        function green()
+        {
+            document.getElementById("adi").style.backgroundColor="green"
+        }
+        function blue()
+        {
+            document.getElementById("adi").style.backgroundColor="blue"
+        }
+    </script>
+
+
+
+    <!-- <div id="adi">
         <button onclick="abes()">Click</button>
         <p id="aaa"></p>
 
@@ -25,13 +46,13 @@
     </script>
 
 
-    <!-- <script>
-        function abes()
+     <script> -->
+        <!-- function abes()
         {
             document.write("hello abes");
 
         }
         abes();
-    </script> -->
+    </script> --> 
 </body>
 </html>
