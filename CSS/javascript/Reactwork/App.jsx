@@ -16,16 +16,20 @@ const nameAndPic = React.createElement(
   {
     style: {
       display: "flex",
-      alignItems: "center",
+      alignItems: "center",       // vertically centers image + text inside flex
+      justifyContent: "center",   // centers them horizontally
       gap: "20px",
+      marginTop: "20px"
     },
   },
   React.createElement("img", {
     src: "https://imgs.search.brave.com/WG0qoXw5Z-34rcfdvahZGWR2f3RuX48RHv1GGs9o234/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFjL2Y2/L2ZjLzFjZjZmYzk3/YzRmNzU0Yzg4MGYy/MTIzYmU2ZTI3Zjk3/LmpwZw",
-    alt: "react",style: { width: "100px", height: "100px", borderRadius: "70%" },
+    alt: "react",
+    style: { width: "100px", height: "100px", borderRadius: "70%" },
   }),
   React.createElement("h1", {}, "Prathmesh")
 );
+
 
 const wrapper = React.createElement("div", {}, h2, nameAndPic, list);
 root.render(wrapper);
