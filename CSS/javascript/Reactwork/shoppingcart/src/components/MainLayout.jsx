@@ -2,7 +2,14 @@ import React from 'react'
 
 function MainLayout() {
   return (
-    <div>MainLayout</div>
+    <div>
+      <nav>
+        <link to='/login'>Login</link>
+        <link to='/register'>Register</link>
+      </nav>
+
+
+    </div>
   )
 }
 
