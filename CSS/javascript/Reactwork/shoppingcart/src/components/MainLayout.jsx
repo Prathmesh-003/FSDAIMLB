@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function MainLayout() {
   return (
-    <div>
+    <div style={{marginLeft:'500px',marginTop:'200px', border:'2px solid red', backgroundColor:'brown', height:'300px', width:'400px'}}>
       <nav>
-        <link to='/login'>Login</link>
-        <link to='/register'>Register</link>
+        <Link style={{marginLeft:'30px',color:'white', fontSize:'30px'}} to='/login'>Login</Link>
+        <Link style={{marginLeft:'50px',color:'white', fontSize:'30px'}} to='/register'>Register</Link>
       </nav>
 
 
